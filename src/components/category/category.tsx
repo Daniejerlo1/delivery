@@ -1,14 +1,17 @@
 import React from "react";
+import "./category.scss";
 
 interface Props {
   name: string;
-  icon: React.ReactNode;
+  icon: string;
 }
 
 function Category({ name, icon }: Props) {
   return (
-    <div>
-      {icon}
+    <div className="category">
+      <div className='category-circulo'>
+        <img src={icon} alt="icone" />
+      </div>
       <p>{name}</p>
     </div>
   );
