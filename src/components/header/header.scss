@@ -1,0 +1,68 @@
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-location {
+    #locationicon {
+      margin-right: 10px;
+      font-size: 32px;
+    }
+    display: flex;
+    align-items: center;
+    span#deliver {
+      color: #a3a3a3;
+    }
+    p { 
+        color:#0a4b65;
+        line-height: 23px;
+    }
+  }
+
+.header-search {
+    position:relative;
+    #lupa {
+        font-size: 25px;
+        color: #a3a3a3;
+        position:absolute;
+        top: calc(50% - 12.5px);
+        padding-left: 10px;
+        }
+    input {
+        font-size: 20px;
+        width: 400px;
+        padding: 4px;
+        border-radius: 100px;
+        border: 1px solid #a3a3a3;
+        padding-left: 40px;
+    }
+}
+
+.header-country {
+  display: flex;
+  align-items: center;
+  select {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    height: 20px;
+    appearance: none;
+    padding: 0 3px;
+    border: none;
+    border-right: 1px solid;
+  }
+}
+
+.header-iconbox {
+  color:#0a4b65;
+  display: flex;
+  align-items: center;
+  p {
+    margin: 8px;
+  }
+  svg {
+    font-size: 25px;
+  }
+}
+
