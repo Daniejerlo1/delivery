@@ -1,6 +1,6 @@
-
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
@@ -21,42 +21,22 @@ header {
   }
 
 .header-search {
-    position:relative;
-    #lupa {
-        font-size: 25px;
-        color: #a3a3a3;
-        position:absolute;
-        top: calc(50% - 12.5px);
-        padding-left: 10px;
-        }
-    input {
-        font-size: 20px;
-        width: 400px;
-        padding: 4px;
-        border-radius: 100px;
-        border: 1px solid #a3a3a3;
-        padding-left: 40px;
+    .search {
+      border-radius: 20px;
+      width: 400px;
     }
 }
 
 .header-country {
-  display: flex;
-  align-items: center;
-  select {
-    text-align: center;
-    font-size: 15px;
-    color: black;
-    height: 20px;
-    appearance: none;
-    padding: 0 3px;
-    border: none;
-    border-right: 1px solid;
+  .Select {
+    width: 150px;
   }
 }
 
 .header-iconbox {
   color:#0a4b65;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   p {
     margin: 8px;
